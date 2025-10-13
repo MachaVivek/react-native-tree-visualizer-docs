@@ -50,6 +50,7 @@ import { TreeNode, TreeVisualizer } from 'react-native-tree-visualizer';
 
 const index = () => {
 
+  // Each node can contain any number of fields of any type
   type PersonNode = { name: string; relation: string };
   const simpleTree: TreeNode<PersonNode> = {
     id: "1",

@@ -6,7 +6,8 @@ import {
   FiGitMerge,
   FiSmartphone,
   FiSettings,
-  FiCopy, FiCheck
+  FiCopy, FiCheck,
+  FiLayers
 } from "react-icons/fi";
 
 import Card from "./Card";
@@ -118,6 +119,11 @@ const DeveloperPage = () => {
 
   const features = [
     {
+      title: "Nodes Data",
+      description: "Each node can contain any number of fields of any type or structure, fully customizable by developers.",
+      icon: FiLayers,
+    },
+    {
       title: "Interactive Nodes",
       description: "Nodes and their children can be expanded and collapsed when clicked.",
       icon: FiCpu, // represents interactivity / logic
@@ -136,11 +142,6 @@ const DeveloperPage = () => {
       title: "Curved Connections",
       description: "Enable curved edges for better visual hierarchy.",
       icon: FiGitMerge, // represents connections/branches
-    },
-    {
-      title: "Responsive Design",
-      description: "Optimized for web and mobile screens seamlessly.",
-      icon: FiSmartphone, // represents mobile/responsive
     },
     {
       title: "Control Buttons",
