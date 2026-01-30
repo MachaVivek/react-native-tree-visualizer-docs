@@ -154,11 +154,29 @@ const DeveloperPage = () => {
 
   return (
     <div className="min-h-screen bg-black text-gray-200 font-sans px-10 py-10">
+
       <header className="flex items-center justify-between px-8 py-5 bg-neutral-950 border-b border-gray-800">
         <h1 className="text-2xl font-bold text-gray-100 tracking-tight">
           react-native-tree-visualizer
         </h1>
+
+        <a
+          href="https://www.npmjs.com/package/react-native-tree-visualizer"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+      px-4 py-1.5 text-xs font-semibold rounded-md
+      bg-red-600/90 text-white
+      hover:bg-red-500
+      shadow-md shadow-red-600/30
+      transition
+    "
+        >
+          View on npm
+        </a>
       </header>
+
+
 
       <main className="w-full px-16 py-16">
 
